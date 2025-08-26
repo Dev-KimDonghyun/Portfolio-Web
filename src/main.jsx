@@ -1,10 +1,14 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import {
+  BrowserRouter,
   createBrowserRouter,
   Navigate,
   RouterProvider,
 } from "react-router-dom";
+import JpHome from "./Pages/JpHome";
+import KrHome from "./Pages/KrHome";
+import NotFound from "./Pages/NotFound";
 import "./style/index.css";
 
 const router = createBrowserRouter([
