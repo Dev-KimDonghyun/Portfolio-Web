@@ -5,9 +5,9 @@ import {
   Navigate,
   RouterProvider,
 } from "react-router-dom";
-import JpHome from "./Pages/JpHome";
-import KrHome from "./Pages/KrHome";
-import NotFound from "./Pages/NotFound";
+import JpHome from "./pages/JpHome";
+import KrHome from "./pages/KrHome";
+import NotFound from "./pages/NotFound";
 import "./style/index.css";
 
 const router = createBrowserRouter([
