@@ -7,13 +7,13 @@ import TechJp from "../components/jp/TechJp";
 
 const JpHome = () => {
   return (
-    <div className="min-h-screen bg-amber-50 font-jp flex items-center">
+    <div className="min-h-screen bg-stone-50 font-jp flex items-center">
       <div className="mt-16 px-82 w-full flex flex-col gap-12">
         <TitleJp />
-          <AboutJp />
-          <ContactJp />
-          <EducationJp />
-          <CertificationJp />
+        <AboutJp />
+        <ContactJp />
+        <EducationJp />
+        <CertificationJp />
         <TechJp />
       </div>
     </div>
