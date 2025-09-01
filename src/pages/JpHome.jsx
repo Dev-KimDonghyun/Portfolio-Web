@@ -7,12 +7,14 @@ import TechJp from "../components/jp/TechJp";
 
 const JpHome = () => {
   return (
-    <div>
+    <div className="font-jp bg-amber-50">
       <TitleJp />
-      <AboutJp />
-      <ContactJp />
-      <EducationJp />
-      <CertificationJp />
+      <div className="grid grid-cols-2">
+        <AboutJp />
+        <ContactJp />
+        <EducationJp />
+        <CertificationJp />
+      </div>
       <TechJp />
     </div>
   );
