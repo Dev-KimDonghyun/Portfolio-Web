@@ -1,14 +1,19 @@
 const ContactJp = () => {
+  const contacts = [
+    { label: "GitHub", value: "github.com/Dev-KimDonghyun" },
+    { label: "Email", value: "hyungus723@gmail.com" },
+  ];
+
   return (
     <div>
-      <div>
-        <h3>GitHub</h3>
-        <p>https://github.com/Dev-KimDonghyun</p>
-      </div>
-      <div>
-        <h3>Email</h3>
-        <p>hyungus723@gmail.com</p>
-      </div>
+      {contacts.map(({ label, value }) => (
+        <div key={label}>
+          <p className="text-lg">
+            <span className="text-blue-700 text-xl mr-2">{label}</span>
+            {value}
+          </p>
+        </div>
+      ))}
     </div>
   );
 };
