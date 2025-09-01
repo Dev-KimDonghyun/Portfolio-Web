@@ -1,8 +1,8 @@
 const AboutJp = () => {
   return (
     <div>
-      <h3 className="text-3xl text-blue-700 mb-2">About Me</h3>
-      <p className="text-md">
+      <h3 className="text-2xl md:text-3xl text-blue-700 mb-2">About Me</h3>
+      <p className="text-sm sm:text-md break-keep break-words">
         高校の頃、本屋で偶然手に取ったプログラミング入門書をきっかけに、開発者としての道を歩み始めました。<br/>
         現在は様々なプロジェクトを通じて、バックエンド開発のスキルを磨くことに注力しています。<br/>
         今後は日本というより広い舞台で、バックエンドエンジニアとして成長していきたいと考えています。<br/>
