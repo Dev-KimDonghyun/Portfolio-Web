@@ -17,7 +17,7 @@ const ContactJp = () => {
       {contacts.map(({ label, value, href }) => (
         <div key={label} className="my-2 md:my-0">
           <p className="text-md md:text-lg">
-            <span className="text-emerald-800 text-lg md:text-xl mr-2">
+            <span className="text-emerald-800 font-semibold text-lg md:text-xl mr-2">
               {label}
             </span>
             <br className="block md:hidden" />
