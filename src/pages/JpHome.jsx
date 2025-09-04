@@ -3,7 +3,6 @@ import AboutJp from "../components/jp/AboutJp";
 import ContactJp from "../components/jp/ContactJp";
 import EducationJp from "../components/jp/EducationJp";
 import CertificationJp from "../components/jp/CertificationJp";
-import TechJp from "../components/jp/TechJp";
 
 const JpHome = () => {
   return (
@@ -14,7 +13,6 @@ const JpHome = () => {
         <ContactJp />
         <EducationJp />
         <CertificationJp />
-        <TechJp />
       </div>
     </div>
   );
