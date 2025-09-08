@@ -1,9 +1,9 @@
-import TitleJp from "../components/jp/TitleJp";
-import AboutJp from "../components/jp/AboutJp";
-import ContactJp from "../components/jp/ContactJp";
-import EducationJp from "../components/jp/EducationJp";
-import CertificationJp from "../components/jp/CertificationJp";
-import FooterJp from "../components/jp/FooterJp";
+import TitleJp from "../components/TitleJp";
+import AboutJp from "../components/AboutJp";
+import ContactJp from "../components/ContactJp";
+import EducationJp from "../components/EducationJp";
+import CertificationJp from "../components/CertificationJp";
+import FooterJp from "../components/FooterJp";
 
 const JpHome = () => {
   return (
