@@ -4,7 +4,9 @@ Dev-KimDonghyun's personal project
 
 ## Description
 
-This project is a personal profile page built with React.
+This project is a personal profile page built with React and created in Japanese
+
+[space-hyun.com](https://www.space-hyun.com)
 
 ---
 
